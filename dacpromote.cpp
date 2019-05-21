@@ -23,10 +23,10 @@ void dacpromote::on_eosgiftcard( name new_account ) {
     t = asset(0, SYM);
   }
 
-  const int amnt = 500000; //50.0000
+  const int amnt = 50; //50
   if (t.amount >= amnt) {
-    // transfer 50 EOSDAC tokens, if 50 or more left
-    const std::string memo = string("Vote eosdacserver");
+    // transfer 50 MAIL tokens, if 50 or more left
+    const std::string memo = string("Visit dmail.co");
     action(
       permission_level{ get_self(), "active"_n },
       TOK, "transfer"_n,

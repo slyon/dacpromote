@@ -4,10 +4,10 @@
 using namespace std;
 using namespace eosio;
 
-const string _sym = "EOSDAC";
-const name TOK = name("eosdactokens");
+const string _sym = "MAIL";
+const name TOK = name("d.mail");
 const symbol_code CODE = symbol_code(_sym);
-const symbol SYM = symbol(_sym, 4);
+const symbol SYM = symbol(_sym, 0);
 
 CONTRACT dacpromote : public eosio::contract {
   public:
